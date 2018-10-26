@@ -3,7 +3,7 @@ from collections import OrderedDict
 opts = OrderedDict()
 opts['use_gpu'] = True
 
-opts['model_path'] = '../models/imagenet-vgg-m.mat'
+opts['model_path'] = 'NIPS2018/DAT/models/imagenet-vgg-m.mat'
 
 opts['img_size'] = 107
 opts['padding'] = 16
