@@ -7,9 +7,9 @@ def gen_config(args):
     if args.seq != '':
         # generate config from a sequence name
 
-        seq_home = '../dataset/OTB'
-        save_home = '../result_fig_labgpu_test'
-        result_home = '../result_labgpu_test'
+        seq_home = 'NIPS2018/DAT/dataset/OTB'
+        save_home = 'NIPS2018/DAT/result_fig_labgpu_test'
+        result_home = 'NIPS2018/DAT/result_labgpu_test'
         
         seq_name = args.seq
         img_dir = os.path.join(seq_home, seq_name, 'img')
