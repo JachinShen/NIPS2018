@@ -19,7 +19,7 @@ import torch.utils.data as data
 import torch.optim as optim
 from torch.autograd import Variable
 
-sys.path.insert(0, '../modules')
+sys.path.insert(0, 'NIPS2018/DAT/modules')
 from sample_generator import *
 from data_prov import *
 from model import *
